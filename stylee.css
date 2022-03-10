@@ -9,12 +9,24 @@
     padding: 20px 200px;
 }
 .container:hover{
-    border-bottom: 5px solid yellow;
+    border-bottom: 15px solid yellow;
+    border-right: 15px solid yellow;
 }
 .n{
     color: rgba(61, 155, 42, 0.959);
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
 img{
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
+    transition: 3s;
+}
+img:hover{
+   width: 400px;
+   height: 400px;
 }
