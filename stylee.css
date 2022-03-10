@@ -1,0 +1,16 @@
+
+.container{
+    background-color: rgba(103, 176, 221, 0.445);
+    margin: 200px auto;
+    height: 40%;
+    width: 60%;
+    transition-duration: 3s;
+    border-radius: 15px;
+    padding: 20px 200px;
+}
+.container:hover{
+    border-bottom: 5px solid yellow;
+}
+.n{
+    color: rgba(61, 155, 42, 0.959);
+}
