@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
     background-color: rgba(103, 176, 221, 0.445);
     margin: 200px auto;
@@ -15,18 +20,26 @@
 .n{
     color: rgba(61, 155, 42, 0.959);
 }
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
+
 img{
     width: 100px;
     height: 100px;
     transition: 3s;
 }
+.v{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    height: 500px;
+    width: 500px;
+    margin: 5px auto;
+ 
+}
 img:hover{
    width: 400px;
    height: 400px;
+   border-bottom:10px solid rgb(46, 144, 236); 
+   border-right: 10px solid rgb(46, 144, 236);
+   border-radius: 50%;
 }
